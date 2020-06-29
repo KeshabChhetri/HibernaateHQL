@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+        
+<hibernate-mapping>
+
+
+<class name="com.car.Cars" table="Cars">
+<id name="cid" column="cid"/>
+<property name="cname" column="cname" length="20"/>
+<property name="ccost" column="ccost" length="20"/>
+
+
+
+</class>
+</hibernate-mapping>
